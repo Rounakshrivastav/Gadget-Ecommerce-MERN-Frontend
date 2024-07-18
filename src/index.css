@@ -1,0 +1,95 @@
+ body {
+  background-color: #202020;
+  color: #f0f0f0;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+
+.nav {
+  width: 100%;
+}
+
+.nav_bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  background-color: #171515;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* #303030 */
+.search_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #404040;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 30%;
+  max-width: 600px;
+}
+
+.search_bar input {
+  border: none;
+  background-color: #404040;
+  color: #f0f0f0;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search_bar input::placeholder {
+  font-weight: bold;
+  color: #bbb;
+}
+
+.search_bar input:focus {
+  outline: none;
+}
+
+.sub_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #303030;
+  padding: 10px 0;
+}
+
+.sub_bar .items {
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #f0f0f0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sub_bar .items:hover {
+  background-color: #404040;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+td {
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+td:hover {
+  background-color: #555;
+} 
+
